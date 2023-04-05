@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #3b0f04;
+
 }
 ul {
     list-style: none;
@@ -18,12 +20,12 @@ button {
   border-radius: 8px;
   font-weight: bold;
   border: 0;
-  background: #1d61dd;
+  background: hsl(0, 38%, 42%);
   color: white;
 }
 
 header {
-  background: no-repeat center/cover url("https://elquarto.com/blog/wp-content/uploads/2023/01/Vancouver.jpg");
+  background: no-repeat center/cover url("https://wallpapers.com/images/hd/arcane-intro-piltover-bknov93of349me0p.jpg");
   height: calc(100vh - 100px);
 }
 
@@ -64,7 +66,7 @@ header nav p {
 }
 
 .pacotes {
-  background: #70ef96;
+  background: #e2c898;
   padding: 15px;
 
 }
@@ -85,10 +87,63 @@ header nav p {
 
 .pacotes .card {
   width: 250px;
-  height: 350px;
+  height: 420px;
   background: white;
   border-radius: 24px 0;
   margin: 25px;
   position: relative;
 }
 
+.pacotes .card-content {
+  padding: 0 15px;
+
+}
+
+.pacotes .card-content ul {
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.pacotes-card .card-content ul li {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  color: grey;
+  font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+  font-size: 1rem;
+}
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: hsl(0, 38%, 42%);
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+.pacotes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #948142;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: aliceblue;
+  font-weight: bold;
+}
