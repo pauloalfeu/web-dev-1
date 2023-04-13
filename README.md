@@ -1,9 +1,16 @@
-# Site de Viagens - Web I - TADS 2023
- ### Atividade de HTML e CSS  
- ![IFPR Campus Cascavel](https://github.com/pauloalfeu/WebDev-I---2023/blob/9636075c32123ddadace715cb5679fc9d0b4e97c/Ex%20001%20-%20Site%20de%20Viagens/ifprlogo.png)
- 
-**Professor:** *Fernando de Lima Alves*  
+# Programação Web 1
 
-**Aluno:** *Paulo Alfeu Scherbai Martins*  
+![IFPR Campus Cascavel](https://github.com/pauloalfeu/eng-software/blob/a59b25cda1b6d41be94f1706a0ae855ddd52f734/ifprlogo.png)
+- **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas
+- **Professor:** Fernando de Lima Alves.
+- **Aluno:** Paulo Alfeu Scherbai Martins.
 
-**Curso:** *Tecnologia em Análise e Desenvolvimento de Sistemas*  
+**Ementa da disciplina:**
+> - Conceitos sobre o funcionamento e os protocolos da internet.
+> - Sistema de controle e versionamento de códigos. 
+> - Linguagem de marcação HTML. 
+> - Linguagem de folhas de estilos (CSS). 
+> - Linguagem de programação JavaScript. 
+> - Serviços e tecnologias de hospedagem WEB.
+
+Repositório destinado a realização e publicação das atividades a serem desenvolvidas em sala.
