@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #3b0f04;
+    color: #060047;
 
 }
 ul {
@@ -20,13 +20,17 @@ button {
   border-radius: 8px;
   font-weight: bold;
   border: 0;
-  background: hsl(0, 38%, 42%);
+  background: #FC2947;
   color: white;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
 header {
-  background: no-repeat center/cover url("https://wallpapers.com/images/hd/arcane-intro-piltover-bknov93of349me0p.jpg");
-  height: calc(100vh - 100px);
+  background: no-repeat center/cover url("https://media.timeout.com/images/105239112/image.jpg");
+  height: calc(120vh - 100px);
 }
 
 header nav {
@@ -48,7 +52,7 @@ header nav p {
 }
 
 .header-content {
-  max-width: 400px;
+  max-width: 500px;
   margin: 150px auto;
   text-align: center;
 }
@@ -62,14 +66,15 @@ header nav p {
   width: 100%;
   text-align: center;
   margin: 25px 0;
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 .pacotes {
-  background: #e2c898;
-  padding: 15px;
-
+  background: #f8f9ed;
+  padding-top: 110px;
+  padding-bottom: 120px;
 }
+
 
 .pacotes .pacotes-card {
   display: flex;
@@ -81,14 +86,14 @@ header nav p {
 
 .pacotes .card-image {
   width: 250px;
-  height: 200px;
+  height: 150px;
   border-radius: 24px 0 0 0;
 }
 
 .pacotes .card {
   width: 250px;
-  height: 420px;
-  background: white;
+  height: 300px;
+  background: #0F6292;
   border-radius: 24px 0;
   margin: 25px;
   position: relative;
@@ -111,7 +116,7 @@ header nav p {
   display: flex;
   align-items: center;
   margin: 3px 0;
-  color: grey;
+  color: #e4e3e3;
   font-weight: bold;
 }
 
@@ -123,38 +128,49 @@ header nav p {
 
 .pacotes .card-content h1 {
   font-size: 1rem;
+  color: #eff1d2;
 }
 .pacotes .card .card-tag-top {
   position: absolute;
   right: 0;
   top: 15px;
-  background: hsl(0, 38%, 42%);
+  background: #8b5fea;
   border-radius: 8px 0 0 8px;
   padding: 5px 10px;
+  font-style: oblique;
 }
 .pacotes .card .card-tag-bottom {
   position: absolute;
   left: 0;
-  top: 160px;
-  background: #948142;
-  border-radius: 8px 0 0 8px;
+  top: 100px;
+  background: #FFED00;
+  border-radius: 0 8px 8px 0;
   padding: 5px 10px;
+  font-style: oblique;
 }
 
 .pacotes .card .card-tag p {
   margin: 0;
   font-size: 0.8rem;
-  color: aliceblue;
+  color: rgb(9, 9, 9);
   font-weight: bold;
 }
 
+.pacotes .card:hover {
+  transform: scale(1.15);
+}
+
 .servicos {
-  padding: 15px;
+  padding: 30px;
+  padding-bottom: 80px;
+  background: #0F6292;
+  color: #eff1d2;
   }
 
 .servicos .servicos-title {
     text-align: center;
     margin: 35px 0;
+    font-size: 1.9rem;
   }
 
 .servicos .servicos-cards {
@@ -181,7 +197,7 @@ header nav p {
 }
 
 .servicos .card svg:hover {
-  stroke: #0000ff;
+  stroke: #191825;
   transform: scale(1.1);
 }
 
@@ -190,7 +206,7 @@ header nav p {
 }
 
 .servicos .card p {
-  color: grey;
+  color: #d4d1d1;
   font-size: 0.8rem;
   text-align: center;
 }
@@ -201,13 +217,16 @@ header nav p {
 }
 
 .contatos {
-  height: 250px;
-  background: red;
+  height: 200px;
+  background: #191825;
+  color: #e4e3e3;
 }
 
 .name {
   display: flex;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .contatos-cards {
@@ -217,5 +236,27 @@ header nav p {
 }
 
 .contatos .facebook svg {
-  color: #0000ff;
+  color: #3454e4;
+  margin-right: 10px;
+}
+
+.contatos .twitter svg {
+  color: #5ca0f3;
+  margin-right: 10px;
+}
+
+.contatos .instagram svg {
+  color: #f35c82;
+  margin-right: 10px;
+}
+
+.contatos .email svg {
+  color: #ead994;
+  margin-right: 10px;
+}
+
+.contatos .contatos-cards p {
+  display: flex;
+  align-items: center;
+  text-indent: 5px;
 }
