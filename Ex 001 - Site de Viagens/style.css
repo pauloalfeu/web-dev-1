@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&&family=Ubuntu:wght@300;500&display=swap');
 
 body {
     margin: 0;
@@ -51,6 +51,12 @@ header nav p {
   font-weight: bold;
 }
 
+header nav img {
+  opacity: 80%;
+  width: 14px;
+  height: 14px;
+}
+
 .header-content {
   max-width: 500px;
   margin: 150px auto;
@@ -60,18 +66,21 @@ header nav p {
 .header-content h1 {
   margin-bottom: 10px;
   font-size: 3rem;
+  font-family: 'Ubuntu';
 }
 
 .pacotes .pacotes-title {
   width: 100%;
   text-align: center;
   margin: 25px 0;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
+  font-family: 'Ubuntu';
+  padding-bottom: 20px;
 }
 
 .pacotes {
   background: #f8f9ed;
-  padding-top: 110px;
+  padding-top: 90px;
   padding-bottom: 120px;
 }
 
@@ -134,7 +143,7 @@ header nav p {
   position: absolute;
   right: 0;
   top: 15px;
-  background: #8b5fea;
+  background: #82CD47;
   border-radius: 8px 0 0 8px;
   padding: 5px 10px;
   font-style: oblique;
@@ -152,7 +161,7 @@ header nav p {
 .pacotes .card .card-tag p {
   margin: 0;
   font-size: 0.8rem;
-  color: rgb(9, 9, 9);
+  color: #090909;
   font-weight: bold;
 }
 

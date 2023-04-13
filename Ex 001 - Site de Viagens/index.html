@@ -10,8 +10,8 @@
   </head>
   <body>
     <header>
-      <nav>
-        <p>IFPR Viagens</p>
+      <nav id="header-logo">
+        <p><img src="https://seeklogo.com/images/I/ifpr-instituto-federal-do-parana-icone-logo-E4B5B3D67E-seeklogo.com.png" alt=""> IFPR Viagens</p>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#pacotes">Pacotes</a></li>
@@ -24,11 +24,14 @@
         <p>
           Vancouver é uma das cidades mais bonitas e vibrantes do Canadá. Localizada na costa oeste do país, ela é cercada por montanhas, florestas, e o mar. Além disso, Vancouver é uma cidade multicultural e cosmopolita, com muitas atrações turísticas e atividades ao ar livre.
         </p>
-        <button>Saiba Mais</button>
+        <button onclick="window.location.href='#pacotes';">Saiba Mais</button>
       </div>
     </header>
+
+    <!-- INICIO DA AREA DE PACOTES -->
+
     <section id="pacotes" class="pacotes">
-      <h1 class="pacotes-title">Conheça nossos pacotes</h1>
+      <h1 class="pacotes-title">Conheça nossos pacotes:</h1>
 
       <div class="pacotes-card">
         <div class="card">
@@ -42,9 +45,9 @@
           <div class="card-content">
             <h1>Suba na Grouse Mountain</h1>
             <ul>
-              <li><i data-feather="smile"></i>Alegria</li>
-              <li><i data-feather="map"></i>Rotas</li>
-              <li><i data-feather="coffee"></i>Café grátis</li>
+              <li><i data-feather="smile"></i>Passeio de bonde</li>
+              <li><i data-feather="map"></i>Rotas especiais</li>
+              <li><i data-feather="coffee"></i>Café incluso</li>
             </ul>
           </div>
         </div>
@@ -53,15 +56,15 @@
             <p>Promoção</p>
           </div>
           <div class="card-tag card-tag-bottom">
-            <p>R$ 1.530,00</p>
+            <p>R$ 1.230,00</p>
           </div>
           <img src="https://a.cdn-hotels.com/gdcs/production77/d729/a937bb70-c31d-11e8-87bb-0242ac11000d.jpg" alt="Bote" class="card-image">
           <div class="card-content">
             <h1>Visite Chinatown</h1>
             <ul>
-              <li><i data-feather="feather"></i>Paisagens</li>
-              <li><i data-feather="map-pin"></i>Rotas</li>
-              <li><i data-feather="camera"></i>Tótens</li>
+              <li><i data-feather="shopping-cart"></i>Ideal para compras</li>
+              <li><i data-feather="map-pin"></i>Ótimos restaurantes</li>
+              <li><i data-feather="camera"></i>Visual único</li>
             </ul>
           </div>
         </div>
@@ -70,54 +73,65 @@
             <p>Promoção</p>
           </div>
           <div class="card-tag card-tag-bottom">
-            <p>R$ 1.130,00</p>
+            <p>R$ 1.930,00</p>
           </div>
           <img src="https://a.cdn-hotels.com/gdcs/production26/d137/a9b8ab40-c31d-11e8-a1a9-0242ac110002.jpg" alt="Bote" class="card-image">
           <div class="card-content">
             <h1>Passeio no Mirante</h1>
             <ul>
-              <li><i data-feather="sun"></i>Orla</li>
-              <li><i data-feather="briefcase"></i>Estadia</li>
-              <li><i data-feather="camera"></i>Fotos</li>
+              <li><i data-feather="sun"></i>Vista da orla</li>
+              <li><i data-feather="briefcase"></i>Estadia inclusa</li>
+              <li><i data-feather="camera"></i>Fotos incriveis</li>
             </ul>
           </div>
         </div>
       </div>
-      
     </section>
+
+    <!-- INICIO DA AREA DE SERVIÇOS -->
 
     <section id="servicos" class="servicos">
       <h1 class="servicos-title">
         Serviços
       </h1>
       <div class="servicos-cards">
-        <div class="card">
-          <i data-feather="map"></i>
-          <div class="card-content">
-            <h3>Tours Guiados</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi amet nobis perferendis, ratione temporibus, nesciunt velit a modi aliquam qui. Ullam voluptatibus quidem laudantium!</p>
-          </div>
-          <button>Saiba Menos</button>
+
+      <!--div tours guiados-->
+
+          <div class="card">
+            <i data-feather="map"></i>
+            <div class="card-content">
+              <h3>Tours Guiados</h3>
+              <p>Ofereceremos informações úteis sobre destinos internacionais, como guias de viagem, dicas de segurança, informações sobre clima e muito mais.</p>
+            </div>
+            <button onclick="window.location.href='#home';">Saiba Menos</button>
         </div>
+
+      <!--div pacotes de viagens-->
+
         <div class="card">
-          <i data-feather="camera"></i>
+          <i data-feather="briefcase"></i>
           <div class="card-content">
-            <h3>Tours Guiados</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi amet nobis perferendis, ratione temporibus, nesciunt velit a modi aliquam qui. Ullam voluptatibus quidem laudantium!</p>
+            <h3>Pacotes de viagem</h3>
+            <p>Incluem passagens aéreas, acomodações e passeios turísticos. Ideal para viajantes que desejam economizar tempo e dinheiro com  as viagens para o exterior.</p>
           </div>
-          <button>Saiba Menos</button>
+          <button onclick="window.location.href='#home';">Saiba Menos</button>
         </div>
+        
+      <!--div aluguel de carros-->
         <div class="card">
-          <i data-feather="navigation"></i>
+          <i data-feather="tag"></i>
           <div class="card-content">
-            <h3>Tours Guiados</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quasi amet nobis perferendis, ratione temporibus, nesciunt velit a modi aliquam qui. Ullam voluptatibus quidem laudantium!</p>
+            <h3>Aluguel de carros</h3>
+            <p>Para viajantes que desejam alugar um carro durante sua estadia no exterior, oferecemos as melhores opções de reserva de carros em diversos destinos.</p>
           </div>
-          <button>Saiba Menos</button>
-      </div>
+          <button onclick="window.location.href='#home';">Saiba Menos</button>
+        </div>
       </div>
     </section>
- <!-- ATIVIDADE-->
+
+ <!-- ATIVIDADE SECTION CONTATO-->
+
  <section id="contatos" class="contatos">
    <div class="name">
      <h4>Paulo Alfeu S. Martins</h4>
